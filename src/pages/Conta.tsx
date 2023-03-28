@@ -12,6 +12,9 @@ const Conta = () => {
 
     
     !isLoggedIn && navigate('/');
+    
+    const data = getAllLocalStorage();
+    console.log(data);
 
     return (
         <>
