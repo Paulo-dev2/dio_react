@@ -12,8 +12,6 @@ const Conta = () => {
 
     
     !isLoggedIn && navigate('/');
-    
-    const data = getAllLocalStorage();
 
     return (
         <>
